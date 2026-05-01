@@ -82,7 +82,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-3 sm:mt-4">
               <Link
-                to="/services"
+                to="/service"
                 className="px-6 sm:px-8 py-3 rounded-md font-medium bg-[#1A365D] text-white hover:bg-[#2B6CB0] transition-all duration-300 shadow-sm text-center"
               >
                 Our Services
