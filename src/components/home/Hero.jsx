@@ -8,8 +8,7 @@ const Hero = () => {
       <div className=" mx-auto px-6 lg:px-12 py-16 lg:py-24">
         {/* Grid Layout */}
         <div className="grid grid-cols-1  lg:grid-cols-2 items-center gap-12 ">
-          {/* LEFT CONTENT */}
-          <div className="flex flex-col gap-6">
+          <div className="order-2 lg:order-1 flex flex-col gap-6">
             <p className="text-sm tracking-widest text-[#2B6CB0] uppercase font-medium">
               Delivering Value. Building Trust.
             </p>
@@ -24,7 +23,6 @@ const Hero = () => {
               excellence.
             </p>
 
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
               <Link
                 to="/services"
@@ -42,8 +40,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* RIGHT IMAGE */}
-          <div className="w-full">
+          <div className="w-full order-1 lg:order-2 ">
             <img
               src={image}
               alt="Building"
