@@ -60,7 +60,7 @@ const Navbar = () => {
                   ? "text-[#1A365D] font-black underline "
                   : "hover:text-[#2B6CB0] transition"
               }
-              to="/services"
+              to="/service"
             >
               Service
             </NavLink>
